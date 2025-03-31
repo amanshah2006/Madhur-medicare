@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhure Medicare Hospital</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 24px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .emergency-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: red;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+        }
+        .emergency-button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Madhure Medicare Hospital</div>
+    <div class="container">
+        <h2>Welcome to Madhure Medicare Hospital</h2>
+        <p>Your trusted healthcare provider.</p>
+    </div>
+    
+    <button class="emergency-button" onclick="window.location.href='tel:+911234567890'">Emergency Call</button>
+</body>
+</html>
